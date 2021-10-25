@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 81
-    length: 57
+    length: 162
     placeholder_text: '# TODO найти суммуб количество и среднее уникальных чисел'
     initial_state:
-      length: 57
+      length: 79
       offset: 81
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       unique_numbers = set(list_)
 
@@ -35,5 +35,8 @@ files:
     14
     -0.42857142857142855
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 20 Oct 2021 11:50:15 UTC
 record: -1

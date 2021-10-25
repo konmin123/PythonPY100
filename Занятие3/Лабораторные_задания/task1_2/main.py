@@ -1,16 +1,9 @@
 def factorial(n):
-    for i in range(n+1):
-        fact_start = 0
-
-
-
-
-
-
-
-
+    factorial_ = 1
+    for i in range(2, n+1):
+        factorial_ *= i
+        print(i, "количество чисел", ",факториал =", factorial_)
 
 
 if __name__ == "__main__":
-    def factorial(n):    # Write your solution here
-    pass
+    factorial(15)

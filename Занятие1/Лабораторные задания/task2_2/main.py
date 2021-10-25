@@ -1,3 +1,4 @@
 N = 100
 
-# TODO найти сумму натуральных чисел
+list_sum = list(range(101))
+print(sum(list_sum))# TODO найти сумму натуральных чисел

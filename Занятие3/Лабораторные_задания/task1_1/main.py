@@ -1,9 +1,9 @@
-def blabla():
+def quadro():
     max_sum = 500
     current_sum = 0
     n = 1
     pow_ = 2
-    while current_sum <= max_sum:
+    while current_sum + n ** pow_ <= max_sum:
         current_sum += n ** pow_
         print("число", n, "сумма чисел", current_sum)
         n = n + 1
@@ -11,6 +11,6 @@ def blabla():
 
 
 if __name__ == "__main__":
-    blabla()
+    quadro()
 
 

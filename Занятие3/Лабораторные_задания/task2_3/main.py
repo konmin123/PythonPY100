@@ -1,3 +1,6 @@
+def sep_swords(str1):
+    print(str1.split())
+
+
 if __name__ == "__main__":
-    # Write your solution here
-    pass
+    sep_swords("стена амбар мёд хрен труд")
