@@ -4,16 +4,16 @@ files:
   visible: true
   placeholders:
   - offset: 115
-    length: 28
+    length: 36
     placeholder_text: '# TODO посчитать через ключи'
     initial_state:
       length: 28
       offset: 115
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: sum_ = 0
-  - offset: 229
+  - offset: 258
     length: 35
     placeholder_text: '# TODO посчитать через метод values'
     initial_state:
@@ -41,5 +41,7 @@ files:
   visible: false
   learner_created: false
 status: Solved
+feedback:
+  time: Wed, 27 Oct 2021 15:47:32 UTC
 record: -1
 post_submission_on_open: true
