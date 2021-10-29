@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 152
-    length: 62
+  - offset: 114
+    length: 188
     placeholder_text: '[]  # TODO записать list comprehension'
     initial_state:
       length: 38
@@ -36,6 +36,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: Wed, 27 Oct 2021 15:22:58 UTC
+  time: Fri, 29 Oct 2021 08:01:51 UTC
 record: -1
 post_submission_on_open: true
